@@ -1,0 +1,85 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+.home {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(47, 0, 255);
+}
+.home li {
+  display: inline;
+  padding: 5px;
+}
+.home li,
+a {
+  text-decoration: none;
+  padding: 5px;
+  color: white;
+}
+.Registration {
+  background-color: beige;
+  text-align: left;
+  margin: -20px 400px;
+}
+.home a:hover {
+  background-color: rgb(226, 52, 43);
+  padding: 5px;
+  color: white;
+}
+.login {
+  background-color: beige;
+  text-align: left;
+  margin: -20px 400px;
+}
+.login input {
+  padding: 10px;
+  margin-bottom: 20px;
+}
+/* .Submit :hover {
+  background-color: aqua;
+  color: blue; */
+.Registration input {
+  padding: 10px;
+  margin-bottom: 20px;
+}
+/* .Registration :hover {
+  background-color: aqua;
+  color: blue;
+} */
+.Registration select {
+  padding: 10px;
+  margin-bottom: 20px;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  /* min-width: 10px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); */
+  padding: 20px 20px;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+  padding: 20px;
+}
+input[type="submit"]:hover {
+  background-color: aqua;
+  color: rgb(42, 42, 72);
+  border-style: none;
+  border-radius: 20px;
+  cursor: pointer;
+  padding: 20px;
+}
+input[type="submit"] {
+  background-color: aqua;
+  color: rgb(152, 152, 184);
+  border-style: none;
+  border-radius: 20px;
+  cursor: pointer;
+  padding: 20px;
+}
